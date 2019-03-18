@@ -1,0 +1,1974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="a17c9e8b-ad5a-4aa3-af93-55bbcf9f2c93"
+  name="CarAuctionSL.ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="038f5df7-a88e-4211-a0c3-3fd5a788d290"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="c56ac1fe-e6c0-499f-a58c-08f8b807543c">
+          <propertyInstance
+            Id="2d5d8733-2076-40cb-81a9-c19be1a0f72a"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="2b64709e-4ff3-4714-9d77-bc7e83f1d7f0">
+          <propertyInstance
+            Id="18c6bf3e-32d6-4fd1-8634-7480da860f6d"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0a40177a-fa28-4153-bd94-c65ba4f5c14e">
+          <propertyInstance
+            Id="f7a924ec-b7a9-4cd1-91e4-c74e6a298402"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="94d94f2a-4808-4a3a-8bca-84192dd84dea"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="e8298bde-5bd2-4de6-a70f-2721a14d58ad">
+          <propertyInstance
+            Id="f44123cd-cb48-428e-98b2-d933f9aa7a9f"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="fd894590-6943-4a80-b5bf-f39719101c91">
+          <propertyInstance
+            Id="5008e68c-42c8-4afd-ad0f-7ec5f146f011"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="11a5242e-1370-4682-9f4e-2e55490baf02">
+          <propertyInstance
+            Id="59be4ff0-59ae-415e-afa3-e07711163771"
+            name="ProjectPath"
+            value="ClassTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|EnumTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|InterfaceTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|StructTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="e4c6b69a-cd37-432c-8618-a7aa580dc51a">
+          <propertyInstance
+            Id="d8261600-43c9-467c-86c1-032fbf67552e"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="3be4049a-55c9-448a-8c51-1f07de7aa7c2">
+          <propertyInstance
+            Id="98367ebc-555f-4942-afca-a92034a35e4d"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="ee7bec17-6df5-4c7f-87a0-c0cdfd0f1f32">
+          <propertyInstance
+            Id="90f12c62-ac72-4ad4-b235-003d97ccd9b0"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="3e950122-c9a4-4544-9c4c-12b5b7fe39bd">
+          <propertyInstance
+            Id="eb3f7715-043a-4a11-808b-ecc54dbaa7b7"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e08577fb-aa2f-43d5-bd89-acc5e3292090">
+      <profileInstance
+        Id="46c9b077-e98c-41dc-ac19-ef20315737c1"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="2aebbd39-7422-44d9-b504-ef6212a75669">
+      <profileInstance
+        Id="ce741839-1858-47f8-b274-416163f64745"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <useCase
+        Id="667d1c95-156a-451a-9af2-386ca235d423"
+        name="Login To the System"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4c6234e1-7d66-45f9-a2ad-b767b6231f46">
+            <useCaseMoniker
+              Id="b1c60ffe-d57e-4bdb-9161-225887beb52d"
+              LastKnownName="Validate User"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="6ab9581b-bcb2-4dc1-95ca-60ac9412b8d9"
+            isDerived="false"
+            sourceEndRoleName="Login To the System"
+            targetEndRoleName="User"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="87b80a9d-0599-4dd8-bfc8-36cffd2b322a"
+              LastKnownName="User"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98f19c58-62c7-4ee7-990f-37cd7585c180"
+                  name="Login To the System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="50200d4a-f805-4cae-b917-55ac43d175f8"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="37b6978f-a424-41c9-8eb1-25b7d5b63d78"
+        name="System"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3342bb94-b006-4b95-b625-1c002a62f8e4"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Load User Related Data"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="66ae3417-ad6b-422b-9d90-e8c39c4b58ab"
+              LastKnownName="Load User Related Data"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="163ce894-67c9-441c-a295-3ef4ee002e76"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e5872f0b-9d39-4f25-b801-0ac3211548c1"
+                  name="Load User Related Data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bab73fb4-cc0d-4986-b4e6-b2ad4aa7a43c"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Validate User"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b1c60ffe-d57e-4bdb-9161-225887beb52d"
+              LastKnownName="Validate User"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44c80c0d-4a8c-475b-9513-6ae3486fc908"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c2a93eb-0a82-47c3-bbc4-36ef65c63d89"
+                  name="Validate User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="66b53efb-5d82-4793-8782-6833c0d95602"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Validate User's Betting and Other History"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="02a999c5-4fc0-479e-94d6-37539a603fca"
+              LastKnownName="Validate User's Betting and Other History"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="94caa8de-a83e-4402-a42f-7e5f197b231f"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2fa41291-7c3f-44ed-804d-8df59f375856"
+                  name="Validate User's Betting and Other History"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c3f3ee4b-ea5b-4c68-b28c-7d00c7b2f8b0"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Place a Bet on the Item FOr user"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3d2d5cd6-a03f-4ac2-8a09-67d75bee81fe"
+              LastKnownName="Place a Bet on the Item For user"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3322271e-9cf8-4c62-9ee2-2e4b1b9b4d22"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="28350b5e-1aeb-4fd0-9c84-3fe33a58ce75"
+                  name="Place a Bet on the Item FOr user"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ef3552d1-373b-40d4-9fe8-5a254742f27a"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Initialize Auction Parameters Of an Item and Place It in Auction"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0ca58813-61e5-45bd-8837-354c4ca05fec"
+              LastKnownName="Initialize Auction Parameters Of an Item and Place It in Auction"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="01794ad7-6886-46f6-a871-24ade7617a1d"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3fc5701b-be0f-4c82-b41a-2f428c8cc0f4"
+                  name="Initialize Auction Parameters Of an Item and Place It in Auction"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b7497861-7a90-4098-8fe3-52bb0e98080f"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Auction End"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3e1523a1-2c8f-4882-acf4-a4babd6a413a"
+              LastKnownName="Auction End"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b0fe54a-9dec-4891-ad92-2480dd45c76f"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55dc0bd5-973f-443f-9cd2-4a953d4cc1f6"
+                  name="Auction End"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cc8e4f6a-3e5f-46e5-a279-c8473ce0067c"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="Set Finalize Parameters and Complete The Transactions"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2e1ebda0-ba5a-4db1-8786-cfc924b545fc"
+              LastKnownName="Set Finalize Parameters and Complete The Transaction"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8560d704-4875-496b-84c3-7b7dcdd7b64a"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f91f218-63e0-4509-b60e-c98efd317c94"
+                  name="Set Finalize Parameters and Complete The Transactions"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="252263f9-09f7-469c-8fdb-4f8660c9a925"
+            isDerived="false"
+            sourceEndRoleName="System"
+            targetEndRoleName="User wise Match Making Process"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a7383ae5-ab3b-4f3b-9f84-df21265268ed"
+              LastKnownName="User wise Match Making Process"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a732980b-2273-4a5d-b8f8-047396a9c94c"
+                  name="System"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fcfd8582-8ccf-4ebd-a40b-ae8a8d0a65e4"
+                  name="User wise Match Making Process"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="87b80a9d-0599-4dd8-bfc8-36cffd2b322a"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="de489102-2169-48bc-90fa-02731e6a84b9"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Search For Items"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7925a8e2-8f8f-4298-9ff8-62c8d4235484"
+              LastKnownName="Search For Items"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1703052-6b63-4e0f-a17f-e231e703b03d"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2299b80-46a4-48c9-b46c-71bad29b7dd0"
+                  name="Search For Items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1652f607-1a14-4811-a3f2-83781a3a9945"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Enter Auction Items"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fa82f120-f4a3-474f-ba56-273e109fec82"
+              LastKnownName="Search through Auction Items"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="651d9260-dc4e-4c5d-baf1-b8d48e39ea49"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="782a63dd-b3c7-4549-a03a-eb07c2c0b23b"
+                  name="Enter Auction Items"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8d2d0ad-f228-43d4-b82e-4e3ee7dd9208"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Request Auction Bet For item"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="80a08a25-b771-4a37-b159-82351eef1689"
+              LastKnownName="Request Auction Bet For item"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bc273208-5bb6-4530-a994-185491643d8c"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e9076350-331d-4b7c-974b-265306ebe80f"
+                  name="Request Auction Bet For item"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f364686e-33da-4f6e-acef-2eafddc1533b"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Add New Item "
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ba224643-77e7-4d6c-89d6-70df56027147"
+              LastKnownName="Add New Item "
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="99ae9c01-269f-4af2-9848-0930b76a8a2f"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ab5d792a-ccdc-4ad8-8621-cfa93f198c47"
+                  name="Add New Item "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="03f1b1d9-5197-4bed-917c-0a9f873f1b58"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Make It Active Selling Or Auction"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7cf8e8f5-51fb-473a-96f3-355c45b5bb71"
+              LastKnownName="Make It Active Selling Or Auction"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4efccd2e-10c8-4779-aa61-b34c6a7e26ba"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cb610fd6-b907-43c8-b247-d7c2ea578aac"
+                  name="Make It Active Selling Or Auction"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="89e62cbf-969a-489c-9e50-ea5cc7b9ef60"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Finalize Acution"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c820a58c-adc2-4a30-a825-38333f5f0608"
+              LastKnownName="Finalize Acution"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44551242-6851-4e54-b6b2-1d8bf8ccd47d"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a5bc5da3-55c5-4d5f-a2e0-d563b0af3270"
+                  name="Finalize Acution"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2dcd6647-9341-4f49-bdfb-317fda79c5c5"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Enter theire Personal Interest and Looking For"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="74160b7c-380c-4948-9b50-4c55959f2199"
+              LastKnownName="Enter theire Personal Interest and Looking For"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6e8eb13f-7604-4b8e-813c-1fc8376ab1e0"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="76b9d26e-1200-448e-b6a6-881f486dee1a"
+                  name="Enter theire Personal Interest and Looking For"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="242f9b01-518b-46bd-9408-dce2dc32b838"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="See Matches"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="40e8e951-b964-40d0-bf64-2d2e32024788"
+              LastKnownName="See Matches"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a7d0f5b4-753d-4eaf-8f9d-757a42bdba8b"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e4388e72-2182-490a-b4dd-136abdb758ae"
+                  name="See Matches"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="243c196d-e799-4992-a1e8-344a52d84f2a"
+        name="USer1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d5604f55-1571-4093-af0d-7d3bfce6641d"
+        name="Register"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c656f4ff-5e0a-4b54-8f75-f70fef0e24c3"
+            isDerived="false"
+            sourceEndRoleName="Register"
+            targetEndRoleName="User"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="87b80a9d-0599-4dd8-bfc8-36cffd2b322a"
+              LastKnownName="User"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a3c62174-6536-4275-a2a7-47519ebc8b23"
+                  name="Register"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9da805df-58d2-4f9c-93a4-9bfd7bb51337"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b1c60ffe-d57e-4bdb-9161-225887beb52d"
+        name="Validate User"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="ac08659e-8c33-4a51-855e-4aa1f605206c">
+            <useCaseMoniker
+              Id="66ae3417-ad6b-422b-9d90-e8c39c4b58ab"
+              LastKnownName="Load User Related Data"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4b107bff-5171-4bfc-96d9-b791323e0699"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="66ae3417-ad6b-422b-9d90-e8c39c4b58ab"
+        name="Load User Related Data"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7925a8e2-8f8f-4298-9ff8-62c8d4235484"
+        name="Search For Items"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fa82f120-f4a3-474f-ba56-273e109fec82"
+        name="Search through Auction Items"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="80a08a25-b771-4a37-b159-82351eef1689"
+        name="Request Auction Bet For item"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="2a8dd87c-9492-45e3-b53b-486393d716f4">
+            <useCaseMoniker
+              Id="02a999c5-4fc0-479e-94d6-37539a603fca"
+              LastKnownName="Validate User's Betting and Other History"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="02a999c5-4fc0-479e-94d6-37539a603fca"
+        name="Validate User's Betting and Other History"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3d2d5cd6-a03f-4ac2-8a09-67d75bee81fe"
+        name="Place a Bet on the Item For user"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="76f5d67e-aa32-432f-871d-e4e5221d0fe1">
+            <useCaseMoniker
+              Id="02a999c5-4fc0-479e-94d6-37539a603fca"
+              LastKnownName="Validate User's Betting and Other History"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="68067e5f-6924-49e3-90ae-1c1ed05af683">
+            <useCaseMoniker
+              Id="80a08a25-b771-4a37-b159-82351eef1689"
+              LastKnownName="Request Auction Bet For item"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ba224643-77e7-4d6c-89d6-70df56027147"
+        name="Add New Item "
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7cf8e8f5-51fb-473a-96f3-355c45b5bb71"
+        name="Make It Active Selling Or Auction"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="8cf5de6b-502f-4ab5-866f-cafb852fb4d6">
+            <useCaseMoniker
+              Id="ba224643-77e7-4d6c-89d6-70df56027147"
+              LastKnownName="Add New Item "
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0ca58813-61e5-45bd-8837-354c4ca05fec"
+        name="Initialize Auction Parameters Of an Item and Place It in Auction"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="a48e8c90-368d-4bb3-8ab1-ce5c10f6bcdc">
+            <useCaseMoniker
+              Id="7cf8e8f5-51fb-473a-96f3-355c45b5bb71"
+              LastKnownName="Make It Active Selling Or Auction"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c820a58c-adc2-4a30-a825-38333f5f0608"
+        name="Finalize Acution"
+        isAbstract="false"
+        isLeaf="false">
+        <description>At any given point user can finalize the Auction by giving a value that system defines</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3e1523a1-2c8f-4882-acf4-a4babd6a413a"
+        name="Auction End"
+        isAbstract="false"
+        isLeaf="false">
+        <description>This means when the time ends the auction is finished and Item goes to Highest bidder</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2e1ebda0-ba5a-4db1-8786-cfc924b545fc"
+        name="Set Finalize Parameters and Complete The Transaction"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="2e8ffebe-69ef-447d-8295-4190997d41ad">
+            <useCaseMoniker
+              Id="c820a58c-adc2-4a30-a825-38333f5f0608"
+              LastKnownName="Finalize Acution"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="74160b7c-380c-4948-9b50-4c55959f2199"
+        name="Enter theire Personal Interest and Looking For"
+        isAbstract="false"
+        isLeaf="false">
+        <description>In here user can enter one or more thire choice of interest about cars and Let the others to see thire interest of . and once he enter and click show my expectation system should load matches if exists</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="40e8e951-b964-40d0-bf64-2d2e32024788"
+        name="See Matches"
+        isAbstract="false"
+        isLeaf="false">
+        <description>when user logged in he or she can view any matches based on thire interest</description>
+        <suppliersInternal>
+          <dependency
+            Id="00d1b148-7d4b-4786-8556-8153d6d89c2a">
+            <useCaseMoniker
+              Id="74160b7c-380c-4948-9b50-4c55959f2199"
+              LastKnownName="Enter theire Personal Interest and Looking For"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+          <dependency
+            Id="88e22c36-78e8-45e8-8125-7a3b5e191ec2">
+            <useCaseMoniker
+              Id="a7383ae5-ab3b-4f3b-9f84-df21265268ed"
+              LastKnownName="User wise Match Making Process"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a7383ae5-ab3b-4f3b-9f84-df21265268ed"
+        name="User wise Match Making Process"
+        isAbstract="false"
+        isLeaf="false">
+        <description>And this is a system process to making matches</description>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="80ae60da-e4a7-42d3-a587-edaa7a0bb803"
+        name="System"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ecd8d292-203a-4fdc-8cf6-edf8dcaedd02"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="096bdc6c-92c3-4d55-b911-16fd0df1ea9f">
+                <propertyInstance
+                  Id="f104a6bd-19ac-409d-bdea-53ed2b6b2f8f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdab7196-16b6-4c07-bfa2-7e45b5b643d4">
+                <propertyInstance
+                  Id="c925de81-3f6d-4665-ba27-8e438974ec21"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fec9aecf-6420-4897-b936-45aa133740e5">
+                <propertyInstance
+                  Id="74589f5f-2a50-4141-a0b0-f5a36f6157f4"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a377fe14-5d22-4ba9-af09-3b2a56f7646f">
+                <propertyInstance
+                  Id="6f9b4c59-97b6-4e8e-ae51-c3fdc78022e5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09310b5b-1601-46ca-a586-5a0e9ff72e53">
+                <propertyInstance
+                  Id="07d57bdc-6833-472d-bd18-50a44d4546ef"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f5a3fdb1-16b4-4709-9e06-867238ebb8c3"
+        name="User"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9cb40bcb-f4c2-429e-a59f-43e1dd18b11a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15100775-2abd-427e-ad22-e99d60b11e25">
+                <propertyInstance
+                  Id="82e8da49-5212-47a0-a06c-a8cf44176e9f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0eb1ee6-0575-43e8-9908-c12a730e1a85">
+                <propertyInstance
+                  Id="dd5bf53a-8313-4cab-bf75-b549112a4ca3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="864e7a77-1e7b-417d-87f1-af1cfbff1973">
+                <propertyInstance
+                  Id="3a1fd506-7cc4-4d80-aaf2-634cb4e597c6"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cc02edc2-c7a8-4f2e-9f54-668e6c92b5f8">
+                <propertyInstance
+                  Id="753258b4-5143-4a21-ba84-598bd0325b5c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="865976d6-43fe-49d3-8bcc-84c266443f50">
+                <propertyInstance
+                  Id="388f519e-ef28-40aa-8851-9517c3cba703"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="660f9450-8d03-41bf-a27a-551b89f611ef"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="AuctionMaster"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="80d79901-583e-4aa5-984f-36829224f34a"
+              LastKnownName="AuctionMaster"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8eb1d3b6-3047-4129-89b4-0db069a30c3a"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0d357a9-d7e0-4288-a4ef-5d5e3e8cb26e"
+                  name="AuctionMaster"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="405010ee-04e9-4c27-b8c9-74aa0003480a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1620ab7b-a1c0-4fd7-b2c3-5670b47611ed"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="079bbdaf-cc07-49ee-ac23-de93a1240269"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Logins"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="833f9279-5c6e-4e1d-92a5-f7ccb759b706"
+              LastKnownName="Logins"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="151bbd17-c375-4a6d-b5a2-cb4328dcf412"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b15bf4c-d756-4af3-89f6-b9e04b4c6a32"
+                  name="Logins"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aedc2628-31df-4032-abd9-8b8fcb794f6e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2a7114dd-f6a4-427d-831a-33af98f526c8"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d18722c7-d149-40e7-967b-ac4bdad7ca70"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="BetRequest"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="457f829a-e1f6-4213-8aca-1b01e6f052c0"
+              LastKnownName="BetRequest"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69c2be35-aca7-4c5a-8aa8-3cd159e1c463"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="458f1d30-5b9e-478c-af36-e949055bd4ff"
+                  name="BetRequest"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e9e6d690-7840-4e83-a470-d66c977604e5"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="UserInterest"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7eacd940-1a3b-42db-84a6-48e96bfd7f99"
+              LastKnownName="UserInterest"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5e4d41a6-5a7a-4e38-9ca8-fac162e68474"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cdeb9897-934b-4b2a-825b-c13582604a6c"
+                  name="UserInterest"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="f6cfacc5-ccd8-4bc5-b282-fd9436dfdf73"
+            name="Id"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="add40399-e5c5-4696-819f-4ac4c02b994c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ece5af43-24c1-4cbb-afc4-99a6a8cc182f">
+                    <propertyInstance
+                      Id="204ba3ac-dfaf-4adf-bbc4-df645b811c65"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11144668-6288-4825-9e68-cbd5462c0183">
+                    <propertyInstance
+                      Id="c07d5591-a579-44d5-970f-c5fefb12075b"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc808286-a365-4aed-9c83-02dfb57b98f7">
+                    <propertyInstance
+                      Id="22ce4060-409a-4a95-b541-c82713c3bf00"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="179e15ec-8ee0-471e-80c6-612177171ed0">
+                    <propertyInstance
+                      Id="ab2cd8ad-e0c5-4c4d-ab4a-62cd4c0a87e3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5c4140f-1f00-4f3c-8a9a-eb708e9b6a2c">
+                    <propertyInstance
+                      Id="2a6b0065-b63a-4f70-b6b5-7a87b565c3c8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="feb4d5b6-a305-4139-bc5f-4f77549bd791">
+                    <propertyInstance
+                      Id="5660a47e-3c17-4c13-8868-2149af82fd08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a5d16a7-ea90-41b3-8c09-2ace87cf43bc">
+                    <propertyInstance
+                      Id="f97ad711-faa5-4aed-b2e9-12c902d2cf58"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="005999cd-4cf6-4e95-8926-93a1bb8f6a02"
+        name="SystemLog"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="927e8533-cf38-453c-8111-1972fc3bee7b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b8c346b-f5af-4ab2-8894-75ad606194a4">
+                <propertyInstance
+                  Id="ceae59fb-1018-4e4c-9b61-7f6b85660344"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ac28cf9-6068-4f32-8004-dfc538450dcb">
+                <propertyInstance
+                  Id="743085ff-3d6b-455c-ade7-7da124ae7dca"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6eb6c0ba-e3ef-4eed-8b7f-a7a698909f3d">
+                <propertyInstance
+                  Id="a1e1900e-1ac7-415d-8361-cac0870fe36d"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b306b4fb-0636-4089-a265-4b0fd900ab99">
+                <propertyInstance
+                  Id="b764049f-022b-4369-90ef-27f84b904ef1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03a0fe04-47c3-4b07-8606-47fa02844207">
+                <propertyInstance
+                  Id="5e3bf9a2-94cb-4a4b-a299-9c4fdb08aabf"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="45e48551-652a-4286-a971-a6ca4b4c729d"
+        name="ItemMaster"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="26e713bf-ee91-40d3-bef5-39f326ab64b2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62b87962-9944-4c5e-bbe2-d7d48cc8466b">
+                <propertyInstance
+                  Id="7eef9780-f1c7-4f41-a464-8a16edbe0e59"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e3be6fe-a90c-42b8-b975-cbb7c6e3fa7f">
+                <propertyInstance
+                  Id="95b80d52-823c-4df6-87b5-e89c85fc80d9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="608cfd18-ecb7-4668-b196-466a031c26aa">
+                <propertyInstance
+                  Id="66a89241-b018-4846-966c-afdba30ee416"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4995041f-23b4-4ce0-a817-4b986a0adb1f">
+                <propertyInstance
+                  Id="3d41834d-3e9a-4860-9f79-03fdfc7e9fbc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2cbd723-29af-44ff-bbdd-23f1fc29a88b">
+                <propertyInstance
+                  Id="248c838b-6ba3-484c-9834-b6d38670ce12"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="833f9279-5c6e-4e1d-92a5-f7ccb759b706"
+        name="Logins"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="96acbf2d-0d94-49c2-92e7-50847357ace7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eae8a551-54b1-4466-b8fd-9674c7b72807">
+                <propertyInstance
+                  Id="4ae1564f-e4bf-4a87-803d-bb8c2a8c59dc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db0cc22a-e2fb-476d-9ccf-b8bfc370e041">
+                <propertyInstance
+                  Id="20c2c098-0905-450c-81bf-ee4d0efdb02c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="33a42d74-05e2-4a37-819c-adb5474b21c8">
+                <propertyInstance
+                  Id="783c2ba5-153d-4dd1-b91c-a5fe1c43d9ec"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b09e3ee7-5a9e-4cb1-828e-48a2f385ef22">
+                <propertyInstance
+                  Id="3604eb38-f0cc-4877-901f-7015bbf76ef3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f2518f7-c020-4c63-a009-df05c0360998">
+                <propertyInstance
+                  Id="f4ccef5c-c297-4d8a-840d-3fbb4b9d1b2f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="80d79901-583e-4aa5-984f-36829224f34a"
+        name="AuctionMaster"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c3cf93d6-8265-42ff-97ea-8ddaad3e4c95"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6882a138-32a2-4e5a-8bc0-4ea43e6fdf4c">
+                <propertyInstance
+                  Id="97e1cce3-0922-45c5-849f-b35586dc4f0a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="177209ec-dd66-4853-97b6-e7652102cf4b">
+                <propertyInstance
+                  Id="c0fdcb94-5395-417e-907e-1fcdecfe2ed9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc29f786-03fd-4330-8908-bdd9826602c0">
+                <propertyInstance
+                  Id="04a9e992-ad3c-46b2-a655-386c632a156b"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f72e488-7e6b-47e5-992d-8f76f7c10276">
+                <propertyInstance
+                  Id="5d82b116-c1e6-42ea-a2bf-a6d07001baf9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b28438c4-42f2-474f-9649-ff560dffb018">
+                <propertyInstance
+                  Id="0124f89c-3a9a-438d-ac7a-556240b96839"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="ee693f5a-0839-4fdc-bab7-300d67c61157"
+            isDerived="false"
+            sourceEndRoleName="AuctionMaster"
+            targetEndRoleName="Betings"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="78952296-d7fd-490a-8ac9-fb046600fc3b"
+              LastKnownName="Betings"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="791ba190-d1f7-4dd6-954c-aeb1131558f3"
+                  name="AuctionMaster"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5482aa79-631e-4dc4-ac6b-b465ecd41d14"
+                  name="Betings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="65ba2728-8ee6-42ed-b9ca-31a60f1a63b8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a7c992d6-2fb0-428f-8736-14b0328a7de2"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dc846530-68ad-4610-912c-7df830672511"
+            isDerived="false"
+            sourceEndRoleName="AuctionMaster"
+            targetEndRoleName="ItemMaster"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="45e48551-652a-4286-a971-a6ca4b4c729d"
+              LastKnownName="ItemMaster"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3e443c9e-8f97-4468-90e5-60cca338b97c"
+                  name="AuctionMaster"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d38da78b-473e-4a36-a2f4-4388f1b69a19"
+                  name="ItemMaster"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aa1e9828-4955-4530-990c-ce409048edfd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1750ffd4-276e-4c81-9c7c-4b89177f14b6"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="697a66ff-a56e-4172-a2e2-53cba898b506"
+            isDerived="false"
+            sourceEndRoleName="AuctionMaster"
+            targetEndRoleName="BetRequest"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="457f829a-e1f6-4213-8aca-1b01e6f052c0"
+              LastKnownName="BetRequest"
+              LastKnownLocation="CarAuctionSL.ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ec1d1bf0-ff2e-4773-87f1-18f13225ad8d"
+                  name="AuctionMaster"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="331ec758-16f2-4fb9-ad3c-1be6d1ccf68b"
+                  name="BetRequest"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7eacd940-1a3b-42db-84a6-48e96bfd7f99"
+        name="UserInterest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3aed04fb-db60-4e61-b552-07ff708eb2cf"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="798b2190-5ea9-4f1b-85e5-cbbc9672c904">
+                <propertyInstance
+                  Id="6aa2b863-8203-4efa-8654-3f4cf2c8183e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31fcc65c-43ef-4b0d-9dae-3e53ab3070ad">
+                <propertyInstance
+                  Id="b9d8eb9a-9c84-4d58-895e-d73b062fe183"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a394592-5090-4bcf-83de-2d92dd3fe4f9">
+                <propertyInstance
+                  Id="e58ea2f7-1303-4117-abe5-eea4273a03a8"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8dc17cc1-3c50-4363-a436-7ef95f7f0f94">
+                <propertyInstance
+                  Id="68268cba-6e9e-4db7-8959-e256f1c3057e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="215fb95d-c2b0-4ea5-8b94-4bb1bbe69182">
+                <propertyInstance
+                  Id="c5bf0414-61b4-401d-bb5c-08bd28c3153a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="78952296-d7fd-490a-8ac9-fb046600fc3b"
+        name="Betings"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eeca9743-508f-4b48-b7c7-decbdad42716"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0fac5645-2392-43b9-9cc3-c9f8f0a835cf">
+                <propertyInstance
+                  Id="c07ebe89-edaf-4717-8e7d-5d0a3af468e0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="34daeff6-9d02-4b41-8e32-c8a54dd4d5a9">
+                <propertyInstance
+                  Id="7fd9ecc1-a222-41c7-b7e5-6128ea8439f4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e47f8480-ecf9-43e0-be40-a69eaa8ce6f1">
+                <propertyInstance
+                  Id="4f2ea4bd-c7eb-4cc6-82f0-be3ef94927a8"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="278e8d72-c6fc-4736-9a85-5cac8ad9a662">
+                <propertyInstance
+                  Id="b411fc7d-3024-4666-977f-6f931b0fa104"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1477f6c-1fc1-4d1e-81fe-60de2c833aa1">
+                <propertyInstance
+                  Id="6eb3d1f0-84bd-47d4-b6ef-1e9c2c11cd88"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="457f829a-e1f6-4213-8aca-1b01e6f052c0"
+        name="BetRequest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9b3e67b5-39f5-4945-9301-cb72f871a4b2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="126b27d9-6026-4455-ba54-2e7a998a57ff">
+                <propertyInstance
+                  Id="f3ee8a47-9a14-4d03-aee4-5f0e2808f609"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="908c4cff-ccd0-42f6-b5ca-1a162b12501b">
+                <propertyInstance
+                  Id="1be24809-8d0d-4e24-9c00-163d71ce5149"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7acb9a03-f150-4719-887c-2d3ac1516662">
+                <propertyInstance
+                  Id="37bf9096-1973-4288-b886-aa8c9822d940"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ee82f32-f6e3-4421-8231-cddbd8961b6d">
+                <propertyInstance
+                  Id="a2b99f46-a88b-40aa-a51f-803775d6d28b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccb758fd-f62b-4ff7-a9dd-788172b54757">
+                <propertyInstance
+                  Id="769e197d-74e7-41bf-9f0a-ae01e907521c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

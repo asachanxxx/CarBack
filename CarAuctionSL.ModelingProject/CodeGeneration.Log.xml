@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="ProjectPath = ..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2019-01-15T14:03:27" Importance="Medium" Text="CarAuctionSL.ModelingProject's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'CarAuctionSL.ModelingProject::System' -  (Class), 'CarAuctionSL.ModelingProject::User' -  (Class), 'CarAuctionSL.ModelingProject::SystemLog' -  (Class), 'CarAuctionSL.ModelingProject::UserInterest' -  (Class), 'CarAuctionSL.ModelingProject::Logins' -  (Class), 'CarAuctionSL.ModelingProject::AuctionMaster' -  (Class), 'CarAuctionSL.ModelingProject::Betings' -  (Class), 'CarAuctionSL.ModelingProject::ItemMaster' -  (Class) " />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::System' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\System.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::User' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\User.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::SystemLog' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\SystemLog.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::UserInterest' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\UserInterest.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::Logins' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\Logins.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::AuctionMaster' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\AuctionMaster.cs" />
+  <Message Timestamp="2019-01-15T14:03:28" Importance="Medium" Text="'CarAuctionSL.ModelingProject::Betings' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\Betings.cs" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Medium" Text="'CarAuctionSL.ModelingProject::ItemMaster' -  (Class) : success (file replaced) - E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\GeneratedCode\ItemMaster.cs" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="ProjectPath = ..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Medium" Text="CarAuctionSL.ModelingProject's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'CarAuctionSL.ModelingProject::System' -  (Class), 'CarAuctionSL.ModelingProject::User' -  (Class), 'CarAuctionSL.ModelingProject::SystemLog' -  (Class), 'CarAuctionSL.ModelingProject::UserInterest' -  (Class), 'CarAuctionSL.ModelingProject::Logins' -  (Class), 'CarAuctionSL.ModelingProject::AuctionMaster' -  (Class), 'CarAuctionSL.ModelingProject::Betings' -  (Class), 'CarAuctionSL.ModelingProject::ItemMaster' -  (Class) " />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::System' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::User' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::SystemLog' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::UserInterest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::Logins' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::AuctionMaster' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::Betings' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::ItemMaster' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="The selection included 4 elements which were not bound to a template." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::' -  (Association): no bound template." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::' -  (Association): no bound template." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::' -  (Association): no bound template." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="Diagnostic" Text="'CarAuctionSL.ModelingProject::' -  (Association): no bound template." />
+  <Message Timestamp="2019-01-15T14:03:29" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

@@ -1,0 +1,1 @@
+E:\TFS\CarAuction\Service\CarAuctionSL\CarAuctionSL.ModelingProjectLib\obj\Debug\CarAuctionSL.ModelingProjectLib.csprojResolveAssemblyReference.cache

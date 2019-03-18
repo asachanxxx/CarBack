@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="330fab7e-9641-4246-8a1e-22d95e9d9e20" name="UMLUseCaseDiagram1" linkedPackageId="b633ff8f-eafe-4101-9417-83edcf9d3d1b" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="b827ca7f-fd59-45e8-a86f-e30421f53432" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="038f5df7-a88e-4211-a0c3-3fd5a788d290" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f084cf05-b337-425c-9f4e-62ea5f088ec3">
+          <propertyInstance Id="f7401080-14e1-4da4-b824-9f237eab6faa" name="BaseName">
+            <elementDefinition Id="2d5d8733-2076-40cb-81a9-c19be1a0f72a" />
+          </propertyInstance>
+          <elementDefinition Id="c56ac1fe-e6c0-499f-a58c-08f8b807543c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b8fec535-a9d6-46dc-9fc5-8098a92df445">
+          <propertyInstance Id="965ee7e1-aa50-4655-8f63-0eb31ce530d0" name="ClrAttributes">
+            <elementDefinition Id="18c6bf3e-32d6-4fd1-8634-7480da860f6d" />
+          </propertyInstance>
+          <elementDefinition Id="2b64709e-4ff3-4714-9d77-bc7e83f1d7f0" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cac4099c-bc1b-4b49-a2b3-83b8f2779c06">
+          <propertyInstance Id="25011950-eafc-4411-acaa-dc43077ab316" name="Usings">
+            <elementDefinition Id="f7a924ec-b7a9-4cd1-91e4-c74e6a298402" />
+          </propertyInstance>
+          <elementDefinition Id="0a40177a-fa28-4153-bd94-c65ba4f5c14e" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="4d39454f-fa5e-41e0-b88c-a416efb72d05" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="94d94f2a-4808-4a3a-8bca-84192dd84dea" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c212b144-a937-4be0-bfc9-53a89059619e">
+          <propertyInstance Id="bb56d7ab-3376-4567-9610-4c32718f0d33" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="f44123cd-cb48-428e-98b2-d933f9aa7a9f" />
+          </propertyInstance>
+          <elementDefinition Id="e8298bde-5bd2-4de6-a70f-2721a14d58ad" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4810fcb0-7e11-4f98-94fe-dee358ddbe2b">
+          <propertyInstance Id="069c67f4-ee3e-473d-a17e-4d4498588dd8" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="5008e68c-42c8-4afd-ad0f-7ec5f146f011" />
+          </propertyInstance>
+          <elementDefinition Id="fd894590-6943-4a80-b5bf-f39719101c91" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cc3d1f3c-a7c7-48ca-ba48-843a7ea7eb89">
+          <propertyInstance Id="c1f1fbd1-d57c-483e-899e-d95aaaac5535" name="ProjectPath" value="ClassTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|EnumTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|InterfaceTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj|StructTemplate=..\CarAuctionSL.ModelingProjectLib\CarAuctionSL.ModelingProjectLib.csproj">
+            <elementDefinition Id="59be4ff0-59ae-415e-afa3-e07711163771" />
+          </propertyInstance>
+          <elementDefinition Id="11a5242e-1370-4682-9f4e-2e55490baf02" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e5bfc2f6-9199-4ecc-976c-dd8bbe7de9f2">
+          <propertyInstance Id="a9c13c60-82c3-4274-a722-69bde890a748" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="d8261600-43c9-467c-86c1-032fbf67552e" />
+          </propertyInstance>
+          <elementDefinition Id="e4c6b69a-cd37-432c-8618-a7aa580dc51a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="913571ff-5527-4706-9ebe-fe799faa31af">
+          <propertyInstance Id="c5d1f0be-c910-4215-aeaf-129149fedc9d" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="98367ebc-555f-4942-afca-a92034a35e4d" />
+          </propertyInstance>
+          <elementDefinition Id="3be4049a-55c9-448a-8c51-1f07de7aa7c2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="71c8db21-46b9-41c9-870b-0456262c698c">
+          <propertyInstance Id="3c67a32a-f975-455a-97e7-a02ed36255fa" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="90f12c62-ac72-4ad4-b235-003d97ccd9b0" />
+          </propertyInstance>
+          <elementDefinition Id="ee7bec17-6df5-4c7f-87a0-c0cdfd0f1f32" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a08b9d85-1c45-4186-973c-62f21b0610e6">
+          <propertyInstance Id="e568c461-34ef-4daf-b547-0af62c3a3040" name="Parameters">
+            <elementDefinition Id="eb3f7715-043a-4a11-808b-ecc54dbaa7b7" />
+          </propertyInstance>
+          <elementDefinition Id="3e950122-c9a4-4544-9c4c-12b5b7fe39bd" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="2e0b2528-2e72-4775-ac3b-e4d6bdea9dad">
+      <profileInstance Id="5b952cd0-3b58-482b-98cc-8082e6c32404" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c20d9c80-2702-430e-a4cf-3fed1c341441">
+      <profileInstance Id="27af00cf-ae7a-42ae-b95b-180fb8dcfccd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="ca04d862-c6aa-4c82-8a16-c6fa8e943b1e">
+      <profileInstance Id="adbe7a25-53bf-46f7-9d16-168852f878dc" name="CSharpProfile">
+        <elementDefinition Id="46c9b077-e98c-41dc-ac19-ef20315737c1" />
+      </profileInstance>
+      <elementDefinition Id="e08577fb-aa2f-43d5-bd89-acc5e3292090" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a6557e7c-8675-468e-b043-2edf9c6edd7e">
+      <profileInstance Id="70ea156e-19df-4add-b81a-628661e63a85" name="TextTemplateBindings">
+        <elementDefinition Id="ce741839-1858-47f8-b274-416163f64745" />
+      </profileInstance>
+      <elementDefinition Id="2aebbd39-7422-44d9-b504-ef6212a75669" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5560e0cc-7ac9-4e7c-899f-d3b83408259b" name="Login To the System" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="667d1c95-156a-451a-9af2-386ca235d423" />
+        <suppliersInternal>
+          <dependency Id="89cfa464-945e-4134-ac17-da6dd8ac8a6e">
+            <useCaseMoniker Id="a5c83f45-87a4-412f-bf4c-34e0b38d453b" LastKnownName="Validate User" />
+            <elementDefinition Id="4c6234e1-7d66-45f9-a2ad-b767b6231f46" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="0dea7340-39b2-4e09-9dcd-1a97aa7a5a5c" isDerived="false" sourceEndRoleName="Login To the System" targetEndRoleName="User" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="409e2480-0fc4-4a11-9a4f-3a93b2858bb6" LastKnownName="User" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f1e182db-85c3-4da0-8fca-e3e43b7e11f6" name="Login To the System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="98f19c58-62c7-4ee7-990f-37cd7585c180" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="01bd49e6-0068-4b04-9a57-477a9f70d73a" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="50200d4a-f805-4cae-b917-55ac43d175f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6ab9581b-bcb2-4dc1-95ca-60ac9412b8d9" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="6ce30dd8-e5bb-4460-b2f4-c7eecd41b2b5" name="System" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="37b6978f-a424-41c9-8eb1-25b7d5b63d78" />
+        <targetEnds>
+          <association Id="fd91316f-1e4f-44af-81f5-8ec7bea3765a" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Load User Related Data" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="57e58abc-0fad-40c2-bc19-85f922a05964" LastKnownName="Load User Related Data" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="da8f671c-c448-4b3b-bc47-e422b2915630" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="163ce894-67c9-441c-a295-3ef4ee002e76" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d831f4ed-d4f8-4192-a5b7-df864136740e" name="Load User Related Data" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e5872f0b-9d39-4f25-b801-0ac3211548c1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3342bb94-b006-4b95-b625-1c002a62f8e4" />
+          </association>
+          <association Id="fff13063-0248-4bfd-a4ca-e5910003cb53" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Validate User" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a5c83f45-87a4-412f-bf4c-34e0b38d453b" LastKnownName="Validate User" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80e9d6b5-4747-4a2b-8680-8554b0c00ee6" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="44c80c0d-4a8c-475b-9513-6ae3486fc908" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6941eaa-ff78-4a3c-98c9-256073303c5d" name="Validate User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1c2a93eb-0a82-47c3-bbc4-36ef65c63d89" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bab73fb4-cc0d-4986-b4e6-b2ad4aa7a43c" />
+          </association>
+          <association Id="341ca502-bcde-4593-9110-48f4f1dbc9dd" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Validate User's Betting and Other History" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="20698f9e-a76d-4f19-b451-1d6d7c66dbef" LastKnownName="Validate User's Betting and Other History" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="530dd37a-6f26-4ada-bc89-acd441b6b487" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="94caa8de-a83e-4402-a42f-7e5f197b231f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2b52629e-04f3-4c87-8734-7f0ae59db2b5" name="Validate User's Betting and Other History" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2fa41291-7c3f-44ed-804d-8df59f375856" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="66b53efb-5d82-4793-8782-6833c0d95602" />
+          </association>
+          <association Id="c221998a-e6ca-474d-b5be-474934d0c454" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Place a Bet on the Item FOr user" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="cc561d16-3b05-46d2-ad75-d7497247b1fa" LastKnownName="Place a Bet on the Item For user" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65bb0d48-2b7b-4980-9932-0cd89a1352f9" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3322271e-9cf8-4c62-9ee2-2e4b1b9b4d22" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="43d372bb-83af-4862-b461-b900e7a55a45" name="Place a Bet on the Item FOr user" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="28350b5e-1aeb-4fd0-9c84-3fe33a58ce75" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c3f3ee4b-ea5b-4c68-b28c-7d00c7b2f8b0" />
+          </association>
+          <association Id="f8f49036-fb1d-477e-83e3-bc7e9519a398" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Initialize Auction Parameters Of an Item and Place It in Auction" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8c5404d6-616f-4ac5-857f-30285d1ba456" LastKnownName="Initialize Auction Parameters Of an Item and Place It in Auction" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e735dccb-1ecd-4481-8320-0c6ef04aba59" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="01794ad7-6886-46f6-a871-24ade7617a1d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b1045fc6-70cd-48c5-9260-019947b00cd3" name="Initialize Auction Parameters Of an Item and Place It in Auction" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3fc5701b-be0f-4c82-b41a-2f428c8cc0f4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ef3552d1-373b-40d4-9fe8-5a254742f27a" />
+          </association>
+          <association Id="8fd14042-35aa-42e5-9635-fc9c4b40b31c" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Auction End" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="081f183f-531c-4a92-9377-e00f4c5ac17a" LastKnownName="Auction End" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7073ae2f-6b07-4ed3-8bce-ba438b44a4b9" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1b0fe54a-9dec-4891-ad92-2480dd45c76f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42377acb-7aef-43b3-9050-048052c4a7cb" name="Auction End" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="55dc0bd5-973f-443f-9cd2-4a953d4cc1f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b7497861-7a90-4098-8fe3-52bb0e98080f" />
+          </association>
+          <association Id="9bfb58e2-2ba9-4801-a29f-b4b3b7f8c6cc" isDerived="false" sourceEndRoleName="System" targetEndRoleName="Set Finalize Parameters and Complete The Transactions" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="67e836d7-d67a-4367-9f5f-51e59f730553" LastKnownName="Set Finalize Parameters and Complete The Transaction" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7352aa7-081d-48bd-bd81-76757921b148" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8560d704-4875-496b-84c3-7b7dcdd7b64a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="354de143-ae1d-4651-b7d6-3d508f654108" name="Set Finalize Parameters and Complete The Transactions" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f91f218-63e0-4509-b60e-c98efd317c94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cc8e4f6a-3e5f-46e5-a279-c8473ce0067c" />
+          </association>
+          <association Id="6b8c7c29-aa99-45ac-8be7-f24963e5523c" isDerived="false" sourceEndRoleName="System" targetEndRoleName="User wise Match Making Process" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="80760c29-e15b-43ad-ace3-62bccdd23449" LastKnownName="User wise Match Making Process" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3724f8fb-b31a-4349-ae98-b6419e4f5b2a" name="System" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a732980b-2273-4a5d-b8f8-047396a9c94c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f00228f-a7ca-48ba-b835-627e0ecbab02" name="User wise Match Making Process" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fcfd8582-8ccf-4ebd-a40b-ae8a8d0a65e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="252263f9-09f7-469c-8fdb-4f8660c9a925" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="409e2480-0fc4-4a11-9a4f-3a93b2858bb6" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="87b80a9d-0599-4dd8-bfc8-36cffd2b322a" />
+        <targetEnds>
+          <association Id="5fd97dd1-3d54-4913-9f04-b5de3a0b40ef" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Search For Items" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3b2ca625-c380-49ab-a40b-cc0a83bb9043" LastKnownName="Search For Items" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="584af8aa-60f4-4e0e-aba0-62c4787b3ba4" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a1703052-6b63-4e0f-a17f-e231e703b03d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5cfd71ae-ea19-4742-ae34-286b7212c8d2" name="Search For Items" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2299b80-46a4-48c9-b46c-71bad29b7dd0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="de489102-2169-48bc-90fa-02731e6a84b9" />
+          </association>
+          <association Id="4624f6a5-e62c-4b86-a40c-5106a08145e4" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Enter Auction Items" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="70ef4cc1-871c-469f-a1e1-216a1442c14b" LastKnownName="Search through Auction Items" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="031bb6a1-5acc-4a1c-8f3b-2498ee0ae792" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="651d9260-dc4e-4c5d-baf1-b8d48e39ea49" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d25b9e15-5a81-4958-9334-bea746eaed94" name="Enter Auction Items" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="782a63dd-b3c7-4549-a03a-eb07c2c0b23b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1652f607-1a14-4811-a3f2-83781a3a9945" />
+          </association>
+          <association Id="88399208-f773-43f6-8e08-4e0c24fc985c" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Request Auction Bet For item" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="db8754af-310b-455c-9a99-bed30f4e5e8a" LastKnownName="Request Auction Bet For item" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77d3f74d-6fa6-4a0e-955a-aa11cfa28bc3" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bc273208-5bb6-4530-a994-185491643d8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="178b40de-c30f-416c-a39c-788ebf9f2031" name="Request Auction Bet For item" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e9076350-331d-4b7c-974b-265306ebe80f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8d2d0ad-f228-43d4-b82e-4e3ee7dd9208" />
+          </association>
+          <association Id="11dd95cb-6fa5-4866-be05-52de0d9b686f" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Add New Item " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8c310f7a-8190-4b84-8f3b-234e60e236c3" LastKnownName="Add New Item " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="71e369ed-dc57-448f-b1b7-e6d545cd06f7" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="99ae9c01-269f-4af2-9848-0930b76a8a2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ee0e6bae-0239-4ffd-9531-cd16e670ddfc" name="Add New Item " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ab5d792a-ccdc-4ad8-8621-cfa93f198c47" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f364686e-33da-4f6e-acef-2eafddc1533b" />
+          </association>
+          <association Id="a171ccde-5597-47a6-aecb-ce825d8da2e3" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Make It Active Selling Or Auction" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5c315cd4-8675-437a-9978-ffeb46acd192" LastKnownName="Make It Active Selling Or Auction" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c27820d-292f-4d3f-9338-8134781fcd7e" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4efccd2e-10c8-4779-aa61-b34c6a7e26ba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78b1461a-313a-41ad-8f38-08d3a24bde81" name="Make It Active Selling Or Auction" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cb610fd6-b907-43c8-b247-d7c2ea578aac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="03f1b1d9-5197-4bed-917c-0a9f873f1b58" />
+          </association>
+          <association Id="cde844fc-ee79-449c-9a90-f5e166b25e0b" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Finalize Acution" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4866266e-a622-430a-a268-2d371fff58b4" LastKnownName="Finalize Acution" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f4033f5d-daa6-471b-85e4-071b254abf2a" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="44551242-6851-4e54-b6b2-1d8bf8ccd47d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c37bd47-139c-4f2d-ae40-a8733a785a42" name="Finalize Acution" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a5bc5da3-55c5-4d5f-a2e0-d563b0af3270" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="89e62cbf-969a-489c-9e50-ea5cc7b9ef60" />
+          </association>
+          <association Id="9cf7e8a3-ff78-4d9f-8aba-7d5a2b789a22" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Enter theire Personal Interest and Looking For" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="600aa944-02b3-4275-b7b1-b539ed3d9cb3" LastKnownName="Enter theire Personal Interest and Looking For" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64c5de5b-d337-46d9-a293-8552227bf723" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6e8eb13f-7604-4b8e-813c-1fc8376ab1e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d00a6df3-ba70-416a-9fae-c55007c5ee83" name="Enter theire Personal Interest and Looking For" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="76b9d26e-1200-448e-b6a6-881f486dee1a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2dcd6647-9341-4f49-bdfb-317fda79c5c5" />
+          </association>
+          <association Id="abe34f62-bb7f-4d6e-b924-77ff15475530" isDerived="false" sourceEndRoleName="User" targetEndRoleName="See Matches" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1904d557-fa8d-4f45-ae78-3f3ebfe10e21" LastKnownName="See Matches" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b28f099c-ba00-4f0d-8790-33cecdc7277b" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a7d0f5b4-753d-4eaf-8f9d-757a42bdba8b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cdf8b6d4-911c-4ea0-91b8-fd1760f1520b" name="See Matches" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e4388e72-2182-490a-b4dd-136abdb758ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="242f9b01-518b-46bd-9408-dce2dc32b838" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="18d96543-dd43-4183-8021-a696ce6ef528" name="Register" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d5604f55-1571-4093-af0d-7d3bfce6641d" />
+        <targetEnds>
+          <association Id="21398916-aa9a-43e7-ad25-9f1a90fcd24f" isDerived="false" sourceEndRoleName="Register" targetEndRoleName="User" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="409e2480-0fc4-4a11-9a4f-3a93b2858bb6" LastKnownName="User" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="18e12c57-171a-4010-983d-063648a060e5" name="Register" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a3c62174-6536-4275-a2a7-47519ebc8b23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="031787af-f800-4b80-a469-08cdfbbcbe06" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9da805df-58d2-4f9c-93a4-9bfd7bb51337" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c656f4ff-5e0a-4b54-8f75-f70fef0e24c3" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a5c83f45-87a4-412f-bf4c-34e0b38d453b" name="Validate User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1c60ffe-d57e-4bdb-9161-225887beb52d" />
+        <suppliersInternal>
+          <dependency Id="f2764fb2-79c3-47ce-a5d5-aa80cb68f97f">
+            <useCaseMoniker Id="57e58abc-0fad-40c2-bc19-85f922a05964" LastKnownName="Load User Related Data" />
+            <elementDefinition Id="ac08659e-8c33-4a51-855e-4aa1f605206c" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="57e58abc-0fad-40c2-bc19-85f922a05964" name="Load User Related Data" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="66ae3417-ad6b-422b-9d90-e8c39c4b58ab" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3b2ca625-c380-49ab-a40b-cc0a83bb9043" name="Search For Items" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7925a8e2-8f8f-4298-9ff8-62c8d4235484" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="70ef4cc1-871c-469f-a1e1-216a1442c14b" name="Search through Auction Items" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa82f120-f4a3-474f-ba56-273e109fec82" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="db8754af-310b-455c-9a99-bed30f4e5e8a" name="Request Auction Bet For item" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="80a08a25-b771-4a37-b159-82351eef1689" />
+        <suppliersInternal>
+          <dependency Id="f4c32b05-af96-4d47-8386-6fd7d4b169fd">
+            <useCaseMoniker Id="20698f9e-a76d-4f19-b451-1d6d7c66dbef" LastKnownName="Validate User's Betting and Other History" />
+            <elementDefinition Id="2a8dd87c-9492-45e3-b53b-486393d716f4" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="20698f9e-a76d-4f19-b451-1d6d7c66dbef" name="Validate User's Betting and Other History" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="02a999c5-4fc0-479e-94d6-37539a603fca" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cc561d16-3b05-46d2-ad75-d7497247b1fa" name="Place a Bet on the Item For user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d2d5cd6-a03f-4ac2-8a09-67d75bee81fe" />
+        <suppliersInternal>
+          <dependency Id="08b12a0f-9ac1-4262-bc95-632ecc982894">
+            <useCaseMoniker Id="20698f9e-a76d-4f19-b451-1d6d7c66dbef" LastKnownName="Validate User's Betting and Other History" />
+            <elementDefinition Id="76f5d67e-aa32-432f-871d-e4e5221d0fe1" />
+          </dependency>
+          <dependency Id="64e863ee-2caf-42d9-b8ae-b71403c48f87">
+            <useCaseMoniker Id="db8754af-310b-455c-9a99-bed30f4e5e8a" LastKnownName="Request Auction Bet For item" />
+            <elementDefinition Id="68067e5f-6924-49e3-90ae-1c1ed05af683" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8c310f7a-8190-4b84-8f3b-234e60e236c3" name="Add New Item " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba224643-77e7-4d6c-89d6-70df56027147" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5c315cd4-8675-437a-9978-ffeb46acd192" name="Make It Active Selling Or Auction" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7cf8e8f5-51fb-473a-96f3-355c45b5bb71" />
+        <suppliersInternal>
+          <dependency Id="4cda3052-d20a-4ccb-92a9-f468806b8828">
+            <useCaseMoniker Id="8c310f7a-8190-4b84-8f3b-234e60e236c3" LastKnownName="Add New Item " />
+            <elementDefinition Id="8cf5de6b-502f-4ab5-866f-cafb852fb4d6" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8c5404d6-616f-4ac5-857f-30285d1ba456" name="Initialize Auction Parameters Of an Item and Place It in Auction" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0ca58813-61e5-45bd-8837-354c4ca05fec" />
+        <suppliersInternal>
+          <dependency Id="3b0e3483-7349-45a7-882b-052a3f11bfa0">
+            <useCaseMoniker Id="5c315cd4-8675-437a-9978-ffeb46acd192" LastKnownName="Make It Active Selling Or Auction" />
+            <elementDefinition Id="a48e8c90-368d-4bb3-8ab1-ce5c10f6bcdc" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4866266e-a622-430a-a268-2d371fff58b4" name="Finalize Acution" isAbstract="false" isLeaf="false">
+        <description>At any given point user can finalize the Auction by giving a value that system defines</description>
+        <elementDefinition Id="c820a58c-adc2-4a30-a825-38333f5f0608" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="081f183f-531c-4a92-9377-e00f4c5ac17a" name="Auction End" isAbstract="false" isLeaf="false">
+        <description>This means when the time ends the auction is finished and Item goes to Highest bidder</description>
+        <elementDefinition Id="3e1523a1-2c8f-4882-acf4-a4babd6a413a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="67e836d7-d67a-4367-9f5f-51e59f730553" name="Set Finalize Parameters and Complete The Transaction" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2e1ebda0-ba5a-4db1-8786-cfc924b545fc" />
+        <suppliersInternal>
+          <dependency Id="15c30b38-86a7-47bb-8998-0e2f40f5ca42">
+            <useCaseMoniker Id="4866266e-a622-430a-a268-2d371fff58b4" LastKnownName="Finalize Acution" />
+            <elementDefinition Id="2e8ffebe-69ef-447d-8295-4190997d41ad" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="600aa944-02b3-4275-b7b1-b539ed3d9cb3" name="Enter theire Personal Interest and Looking For" isAbstract="false" isLeaf="false">
+        <description>In here user can enter one or more thire choice of interest about cars and Let the others to see thire interest of . and once he enter and click show my expectation system should load matches if exists</description>
+        <elementDefinition Id="74160b7c-380c-4948-9b50-4c55959f2199" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1904d557-fa8d-4f45-ae78-3f3ebfe10e21" name="See Matches" isAbstract="false" isLeaf="false">
+        <description>when user logged in he or she can view any matches based on thire interest</description>
+        <elementDefinition Id="40e8e951-b964-40d0-bf64-2d2e32024788" />
+        <suppliersInternal>
+          <dependency Id="5f0de669-e2dc-4d93-abfd-628052968416">
+            <useCaseMoniker Id="600aa944-02b3-4275-b7b1-b539ed3d9cb3" LastKnownName="Enter theire Personal Interest and Looking For" />
+            <elementDefinition Id="00d1b148-7d4b-4786-8556-8153d6d89c2a" />
+          </dependency>
+          <dependency Id="a1e06d8e-d167-4def-9880-9488577578d7">
+            <useCaseMoniker Id="80760c29-e15b-43ad-ace3-62bccdd23449" LastKnownName="User wise Match Making Process" />
+            <elementDefinition Id="88e22c36-78e8-45e8-8125-7a3b5e191ec2" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="80760c29-e15b-43ad-ace3-62bccdd23449" name="User wise Match Making Process" isAbstract="false" isLeaf="false">
+        <description>And this is a system process to making matches</description>
+        <elementDefinition Id="a7383ae5-ab3b-4f3b-9f84-df21265268ed" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="b633ff8f-eafe-4101-9417-83edcf9d3d1b" name="CarAuctionSL.ModelingProject">
+    <elementDefinition Id="a17c9e8b-ad5a-4aa3-af93-55bbcf9f2c93" />
+  </package>
+</useCaseModelRoot>
